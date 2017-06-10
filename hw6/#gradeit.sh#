@@ -1,0 +1,20 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+	echo "Usage: ./gradeit.sh MAXPOINTS"
+else
+	echo "Retro Grade-it, 1970s version"
+	echo "Grading with a max score of 50"
+	for STUDENTID in `ls students`; do
+		echo "Processing $STUDENTID ..."
+	cd students/$STUDENTID/
+	if [ -e gettysburg.sh ]; then  # if the student turned in the correct file
+		bash ./gettysburg.sh > output.txt  # create a temporary output file for compare the output with the expected output
+	    cd .. && cd ..
+	else
+		echo "has correct output"
+	fi
+	done
+fi
+
+

@@ -1,0 +1,53 @@
+Aigerim Shintemirova
+CSE 391
+
+Task 1:
+1. [ashin26@localhost cse391-HW09]$ git log -1
+commit 75da9fe1f260983f62728aaf5ded84530077fc23
+Author: Aigerim Shintemirova <ashin26@uw.edu>
+Date:   Tue May 30 16:18:51 2017 -0700
+
+    adding menu to repo
+
+2. [ashin26@localhost cse391-HW09]$ git diff
+diff --git a/menu.txt b/menu.txt
+index ffcc670..74722fc 100644
+--- a/menu.txt
++++ b/menu.txt
+@@ -6,3 +6,6 @@ Mashed Potatoes
+ Yams
+ Cranberry Sauce
+ Pumpkin Pie
++Hot Chocolate
++Apple pie
++
+
+3. [ashin26@localhost cse391-HW09]$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   menu.txt
+
+4. [ashin26@localhost cse391-HW09]$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+5. [ashin26@localhost cse391-HW09]$ git blame menu.txt
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  1) Menu:
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  2) ----------
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  3) Turkey
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  4) Stuffing
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  5) Mashed Potatoes
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  6) Yams
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  7) Cranberry Sauce
+75da9fe1 (Aigerim Shintemirova 2017-05-30 16:18:51 -0700  8) Pumpkin Pie
+f2486107 (Aigerim Shintemirova 2017-05-30 16:28:51 -0700  9) Hot Chocolate
+f2486107 (Aigerim Shintemirova 2017-05-30 16:28:51 -0700 10) Apple pie
+f2486107 (Aigerim Shintemirova 2017-05-30 16:28:51 -0700 11) 
+
+
+

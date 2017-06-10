@@ -1,0 +1,10 @@
+Be careful about the difference
+between -l  (the letter L)  and -1
+(the number one).  They are easy
+to confuse, say, when reading a
+writeup ;)
+-Josh
+
+__________________________________
+Cse390a-announce mailing list
+Cse390a-announce@cs.washington.edu

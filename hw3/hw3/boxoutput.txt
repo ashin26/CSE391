@@ -1,0 +1,9 @@
+RRRRRRRRRRRRRRRRRRRRRRRRRRRR
+R Hi there!                R
+R This is   some input     R
+R   for the box            R
+R program.                 R
+R              It contains R
+R lines of various         R
+R   different lengths.     R
+RRRRRRRRRRRRRRRRRRRRRRRRRRRR

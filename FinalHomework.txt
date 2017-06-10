@@ -1,0 +1,4 @@
+@author: Aigerim Shintemirova
+1) CSE VM was used to complete the assignments
+2) Achievements completed: A, B, C, F, P
+Files submitted: A-screenshot.png, B-wallpaper.png, C-image-editing.png, C-image-new.png, F-font.png, P-jgrasp.png 

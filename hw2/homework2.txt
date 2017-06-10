@@ -1,0 +1,8 @@
+Aigerim Shintemirova, 1550398
+ashin26@uw.edu
+
+1. /urs/bin/wc
+2. 2529
+3. 2
+4. lrwxrwxrwx 1 ashin26 ashin26     10 Apr 10 15:49 link_to_lyrics.txt -> lyrics.txt
+5. the original file is not modified

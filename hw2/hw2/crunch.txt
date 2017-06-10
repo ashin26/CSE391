@@ -1,0 +1,6 @@
+Hello, output file!
+This file was produced by the Crunch Java program.
+Hello, world!
+This console output is being produced by
+the Crunch Java program.  Make it go away!
+>_<   kekekekekek
