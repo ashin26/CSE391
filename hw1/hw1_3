@@ -1,0 +1,11 @@
+1. ls -m: list directory contents as a comma-separated list
+2. [ashin26@localhost ~]$ pwd
+   /home/ashin26
+3. [ashin26@localhost hw1]$ date
+   Wed Mar 29 19:05:04 PDT 2017
+4. [ashin26@localhost home]$ ls
+   ashin26  auser  lost+found
+5. [ashin26@localhost hw1]$ uname -r
+   3.10.0-514.10.2.el7.x86_64
+
+
